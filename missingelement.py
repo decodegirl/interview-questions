@@ -1,3 +1,7 @@
+# solution 1
+# consider an array of non-negative integers. A 2nd array is created by shuffling the elements and then deleting a random element.
+# Given two arrays find which element is missing in the second array.
+
 import collections
 
 
@@ -32,7 +36,7 @@ def finder3(arr1,arr2):
 print(finder([1,3,5,7,9,],[1,3,7,9]))
 
 
-# solutin 3
+# solution 3
 
 def finder(arr1,arr2):
     arr1.sort()
