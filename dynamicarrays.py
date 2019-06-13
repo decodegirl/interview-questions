@@ -1,3 +1,11 @@
+
+# In this exercise we will create our own Dynamic Array class!
+
+# We'll be using a built in library called ctypes. Check out the documentation for more info, 
+# but its basically going to be used here as a raw array from the ctypes module.
+
+
+
 import ctypes
 
 
