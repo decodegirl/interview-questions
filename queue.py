@@ -1,36 +1,22 @@
-# queues work on a first in first out principle
-# implement a stack
-
-
 class Queue(object):
-
     def __init__(self):
-        self.items =[]
+        self.items = []
 
-    def isEmpty (self):
+    def is_empty(self):
         return self.items == []
 
-    def enqueue (self,item):
+    def enqueue(self,item):
         self.items.insert(0,item)
-
 
     def dequeue(self):
         return self.items.pop()
 
-
     def size(self):
         return len(self.items)
 
-
-
-## testing the queue
 q = Queue()
 
-print(q.isEmpty())
-
-
+print(q.is_empty())
 q.enqueue(1)
-
-q.enqueue(2)
-
+q.enqueue(5)
 print(q.dequeue())
